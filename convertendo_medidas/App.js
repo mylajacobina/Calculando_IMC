@@ -1,4 +1,4 @@
-import React, {useState,useEffect} from 'react';
+import React, {useState} from 'react';
 import {Text, Button, StyleSheet, SafeAreaView, View} from 'react-native';
 import styled from 'styled-components/native';
 
@@ -85,7 +85,7 @@ export default function App() {
   }
 
  
-  useEffect ( () => { calcularMedida() }, [medida] );
+
   
 
   return (
